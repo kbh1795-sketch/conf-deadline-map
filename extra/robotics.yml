@@ -1,0 +1,16 @@
+# upstream(ccfddl/ccf-deadlines)에 없는 학회를 여기에 같은 형식으로 추가하면 지도에 함께 표시됩니다.
+# ICRA, IROS, RSS, CoRL 은 upstream 에 이미 있습니다.
+# 예시:
+# - title: CASE
+#   description: IEEE International Conference on Automation Science and Engineering
+#   sub: RO
+#   rank: {}
+#   confs:
+#     - year: 2027
+#       link: https://example.org
+#       timeline:
+#         - deadline: '2027-03-01 23:59:59'
+#       timezone: AoE
+#       date: August 2027
+#       place: Seoul, South Korea
+[]

@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>학회 마감 지도</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css">
+<style>
+:root {
+  --bg: #f7f7f5; --panel: #ffffff; --text: #1d1d1f; --muted: #6b6b70; --line: #e4e4e0;
+  --accent: #2f6fde; --urgent: #d0342c; --soon: #d98a00;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #151517; --panel: #1f1f22; --text: #ececee; --muted: #9a9aa2; --line: #333338;
+          --accent: #6c9cff; --urgent: #ff6b61; --soon: #ffb340; }
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", "Segoe UI", sans-serif; }
+#app { display: flex; height: 100%; }
+#side { width: 380px; max-width: 100%; display: flex; flex-direction: column; background: var(--panel);
+  border-right: 1px solid var(--line); }
+#map { flex: 1; }
+header { padding: 16px 16px 8px; border-bottom: 1px solid var(--line); }
+h1 { font-size: 18px; margin: 0 0 2px; }
+.sub { color: var(--muted); font-size: 12px; }
+#filters { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px 16px; border-bottom: 1px solid var(--line); }
+.chip { display: inline-flex; align-items: center; gap: 5px; padding: 3px 9px; border-radius: 999px;
+  border: 1px solid var(--line); cursor: pointer; font-size: 12px; user-select: none; background: transparent; color: var(--text); }
+.chip.off { opacity: .35; }
+.dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+#search { margin: 10px 16px 0; padding: 7px 10px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--bg); color: var(--text); font: inherit; }
+#list { overflow-y: auto; flex: 1; padding: 4px 0; }
+.item { padding: 9px 16px; border-bottom: 1px solid var(--line); cursor: pointer; }
+.item:hover { background: var(--bg); }
+.row { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.name { font-weight: 600; }
+.dday { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+.urgent { color: var(--urgent); } .soon { color: var(--soon); }
+.meta { color: var(--muted); font-size: 12px; }
+.rank { font-size: 11px; padding: 0 5px; border: 1px solid var(--line); border-radius: 4px; margin-left: 4px; color: var(--muted); }
+.tiles-dark { filter: invert(1) hue-rotate(180deg) brightness(.9) contrast(.9); }
+.leaflet-popup-content { font-size: 13px; line-height: 1.5; min-width: 220px; }
+.leaflet-popup-content a { color: var(--accent); }
+@media (max-width: 760px) {
+  #app { flex-direction: column-reverse; }
+  #side { width: 100%; height: 50%; border-right: 0; border-top: 1px solid var(--line); }
+  #map { height: 50%; flex: none; }
+}
+</style>
+</head>
+<body>
+<div id="app">
+  <aside id="side">
+    <header>
+      <h1>학회 마감 지도</h1>
+      <div class="sub" id="status">불러오는 중…</div>
+    </header>
+    <input id="search" placeholder="학회 이름·도시 검색">
+    <div id="filters"></div>
+    <div id="list"></div>
+  </aside>
+  <div id="map"></div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+<script>
+const COLORS = { AI:"#2f6fde", RO:"#e5484d", DS:"#8e4ec6", NW:"#12a594", SC:"#e54d2e", SE:"#3e63dd",
+  DB:"#f76b15", CT:"#7c7c85", CG:"#d6409f", HI:"#46a758", MX:"#a18072" };
+const KO = { AI:"인공지능", RO:"로보틱스", DS:"컴퓨터구조·병렬", NW:"네트워크", SC:"보안", SE:"소프트웨어·OS·언어",
+  DB:"데이터베이스·마이닝", CT:"이론", CG:"그래픽스·멀티미디어", HI:"HCI", MX:"융합" };
+const off = new Set(JSON.parse(safeGet("off") || "[]"));
+function safeGet(k){ try { return localStorage.getItem(k); } catch { return null; } }
+function safeSet(k,v){ try { localStorage.setItem(k,v); } catch {} }
+
+const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+const map = L.map("map", { worldCopyJump: true }).setView([30, 10], 2);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>', maxZoom: 18,
+  className: dark ? "tiles-dark" : "" }).addTo(map);
+const cluster = L.markerClusterGroup({ maxClusterRadius: 30, spiderfyOnMaxZoom: true }).addTo(map);
+
+const fmt = d => d.toLocaleString("ko-KR", { year:"numeric", month:"short", day:"numeric", hour:"2-digit", minute:"2-digit" });
+function dday(iso) {
+  const ms = new Date(iso) - Date.now(), days = Math.floor(ms / 864e5);
+  if (days < 1) return { txt: `${Math.max(0, Math.floor(ms / 36e5))}시간 남음`, cls: "urgent" };
+  return { txt: `D-${days}`, cls: days <= 7 ? "urgent" : days <= 30 ? "soon" : "" };
+}
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+
+let confs = [], markers = new Map();
+
+function popup(c) {
+  const dls = c.deadlines.map(d => {
+    const dd = dday(d.deadline);
+    return `<div>${d.abstract ? `초록: ${fmt(new Date(d.abstract))}<br>` : ""}
+      <b>마감: ${fmt(new Date(d.deadline))}</b> <span class="${dd.cls}">(${dd.txt})</span>
+      ${d.comment ? `<br><span class="meta">${esc(d.comment)}</span>` : ""}</div>`;
+  }).join("");
+  const rank = Object.entries(c.rank).map(([k,v]) => `${k.toUpperCase()} ${v}`).join(" · ");
+  return `<b>${esc(c.title)} ${c.year}</b> <span class="meta">${KO[c.sub]}</span><br>
+    <span class="meta">${esc(c.description)}</span><br>
+    📍 ${esc(c.place || "미정")}<br>📅 ${esc(c.date || "미정")}<br>${dls}
+    ${rank ? `<span class="meta">${rank}</span><br>` : ""}
+    ${c.link ? `<a href="${esc(c.link)}" target="_blank" rel="noopener">홈페이지 ↗</a>` : ""}`;
+}
+
+function render() {
+  const q = document.getElementById("search").value.trim().toLowerCase();
+  const now = Date.now();
+  const shown = confs.filter(c => !off.has(c.sub)
+    && new Date(c.deadlines.at(-1).deadline) > now
+    && (!q || `${c.title} ${c.description} ${c.place}`.toLowerCase().includes(q)));
+  cluster.clearLayers(); markers.clear();
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  for (const c of shown) {
+    const next = c.deadlines.find(d => new Date(d.deadline) > now);
+    const dd = dday(next.deadline);
+    let m = null;
+    if (c.loc) {
+      m = L.circleMarker(c.loc, { radius: 7, color: "#fff", weight: 1.5, fillColor: COLORS[c.sub], fillOpacity: .9 })
+        .bindPopup(popup(c)).bindTooltip(`${c.title} · ${dd.txt}`);
+      cluster.addLayer(m); markers.set(c, m);
+    }
+    const el = document.createElement("div");
+    el.className = "item";
+    const rank = Object.entries(c.rank).map(([k,v]) => `<span class="rank">${k.toUpperCase()} ${esc(v)}</span>`).join("");
+    el.innerHTML = `<div class="row"><span><span class="dot" style="display:inline-block;background:${COLORS[c.sub]}"></span>
+      <span class="name">${esc(c.title)} ${c.year}</span>${rank}</span><span class="dday ${dd.cls}">${dd.txt}</span></div>
+      <div class="meta">${esc(c.place || "장소 미정")} · ${esc(c.date || "")}</div>`;
+    el.onclick = () => {
+      if (m) cluster.zoomToShowLayer(m, () => m.openPopup());
+      else L.popup().setLatLng(map.getCenter()).setContent(popup(c)).openOn(map);
+    };
+    list.appendChild(el);
+  }
+  document.getElementById("status").textContent =
+    `제출 가능한 학회 ${shown.length}개 · 데이터 갱신 ${fmt(new Date(window.updated))}`;
+}
+
+function buildFilters(cats) {
+  const box = document.getElementById("filters");
+  for (const k of Object.keys(cats)) {
+    if (!confs.some(c => c.sub === k)) continue;
+    const b = document.createElement("button");
+    b.className = "chip" + (off.has(k) ? " off" : "");
+    b.title = cats[k];
+    b.innerHTML = `<span class="dot" style="background:${COLORS[k]}"></span>${KO[k]} ${confs.filter(c => c.sub === k).length}`;
+    b.onclick = () => { off.has(k) ? off.delete(k) : off.add(k); b.classList.toggle("off");
+      safeSet("off", JSON.stringify([...off])); render(); };
+    box.appendChild(b);
+  }
+}
+
+fetch("data.json", { cache: "no-cache" }).then(r => r.json()).then(d => {
+  confs = d.conferences; window.updated = d.updated;
+  buildFilters(d.categories);
+  document.getElementById("search").oninput = render;
+  render();
+}).catch(e => { document.getElementById("status").textContent = "데이터를 불러오지 못했습니다: " + e; });
+</script>
+</body>
+</html>
