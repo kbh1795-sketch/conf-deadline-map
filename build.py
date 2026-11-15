@@ -88,7 +88,7 @@ def load_sources():
 def clean_place(place):
     p = re.sub(r"\((?:hybrid|virtual|online)[^)]*\)", "", place, flags=re.I)
     p = re.split(r"\s+and\s+(?:online|virtual)|\s*&\s*online", p, flags=re.I)[0]
-    p = re.split(r"\s+and\s+", p)[0]  # multi-site: use the first
+    p = re.split(r"\s+and\s+|\s*/\s*", p)[0]  # multi-site: use the first
     p = re.sub(r"\s+", " ", p).strip(" ,")
     return p
 
@@ -101,10 +101,8 @@ def query_variants(place):
     if no_paren != p:
         yield no_paren
     parts = [x.strip() for x in no_paren.split(",") if x.strip()]
-    if len(parts) > 2:
-        yield f"{parts[-2]}, {parts[-1]}"
-    if len(parts) > 1:
-        yield parts[-1]
+    for i in range(1, len(parts)):  # drop venue/campus names from the left
+        yield ", ".join(parts[i:])
 
 
 _last_call = [0.0]

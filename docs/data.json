@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:10:43.233963+00:00",
+ "updated": "2026-11-15T23:20:01.071189+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -1313,8 +1313,8 @@
    "date": "May 9-14 (in-person) and 6-7 (virtual), 2027",
    "place": "Macau SAR, China / Online",
    "loc": [
-    39.9112671,
-    116.4278564
+    22.3216846,
+    113.9523102
    ],
    "timezone": "UTC-12",
    "deadlines": [
@@ -2560,8 +2560,8 @@
    "date": "August 29-31, 2027",
    "place": "Guiyang, China / Online",
    "loc": [
-    39.9112671,
-    116.4278564
+    26.5878031,
+    106.7086936
    ],
    "timezone": "AoE",
    "deadlines": [
@@ -2833,8 +2833,8 @@
    "date": "December 14-16, 2027",
    "place": "University of Miami, Coral Gables Campus, Miami, Florida, USA",
    "loc": [
-    27.7567667,
-    -81.4639835
+    25.7741566,
+    -80.1935973
    ],
    "timezone": "PT",
    "deadlines": [
