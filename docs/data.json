@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:37:09.780562+00:00",
+ "updated": "2026-11-17T03:32:19.867987+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -14,110 +14,6 @@
   "MX": "Interdisciplinary"
  },
  "conferences": [
-  {
-   "title": "CVC",
-   "year": 2027,
-   "description": "Computer Vision Conference",
-   "sub": "AI",
-   "rank": {},
-   "link": "https://saiconference.com/CVC",
-   "date": "April 15-16, 2027",
-   "place": "Amsterdam, Netherlands",
-   "loc": [
-    52.3730796,
-    4.8924534
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-16T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Round 2"
-    }
-   ]
-  },
-  {
-   "title": "ICDAR",
-   "year": 2027,
-   "description": "International Conference on Document Analysis and Recognition",
-   "sub": "AI",
-   "rank": {
-    "ccf": "C",
-    "core": "A"
-   },
-   "link": "https://icdar2027.org/",
-   "date": "August 18 - 22, 2027",
-   "place": "Kuala Lumpur, Malaysia",
-   "loc": [
-    3.1516964,
-    101.6942371
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-16T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Journal track; initial decision Jan 15, revised submission Apr 1"
-    },
-    {
-     "deadline": "2027-03-06T11:59:59+00:00",
-     "abstract": "2027-02-27T11:59:59+00:00",
-     "comment": "Conference track"
-    }
-   ]
-  },
-  {
-   "title": "IntelliSys",
-   "year": 2027,
-   "description": "Intelligent Systems Conference",
-   "sub": "AI",
-   "rank": {},
-   "link": "https://saiconference.com/IntelliSys",
-   "date": "September 2-3, 2027",
-   "place": "Amsterdam, Netherlands",
-   "loc": [
-    52.3730796,
-    4.8924534
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-16T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Round 1"
-    },
-    {
-     "deadline": "2026-12-02T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Round 2"
-    }
-   ]
-  },
-  {
-   "title": "CAiSE",
-   "year": 2027,
-   "description": "International Conference on Advanced Information Systems Engineering",
-   "sub": "SE",
-   "rank": {
-    "ccf": "B",
-    "core": "A"
-   },
-   "link": "https://deal.us.es/caise27/",
-   "date": "June 7-11, 2027",
-   "place": "Seville, Spain",
-   "loc": [
-    37.3886303,
-    -5.9953403
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-16T11:59:59+00:00",
-     "abstract": null,
-     "comment": null
-    }
-   ]
-  },
   {
    "title": "CVPR",
    "year": 2027,
@@ -701,6 +597,28 @@
      "deadline": "2027-03-02T01:00:00+00:00",
      "abstract": "2027-02-26T01:00:00+00:00",
      "comment": null
+    }
+   ]
+  },
+  {
+   "title": "IntelliSys",
+   "year": 2027,
+   "description": "Intelligent Systems Conference",
+   "sub": "AI",
+   "rank": {},
+   "link": "https://saiconference.com/IntelliSys",
+   "date": "September 2-3, 2027",
+   "place": "Amsterdam, Netherlands",
+   "loc": [
+    52.3730796,
+    4.8924534
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-02T11:59:59+00:00",
+     "abstract": null,
+     "comment": "Round 2"
     }
    ]
   },
@@ -1321,7 +1239,7 @@
     {
      "deadline": "2026-12-24T11:59:59+00:00",
      "abstract": null,
-     "comment": "Commitment deadline for long and short research papers reviewed by ARR"
+     "comment": "Commitment deadline for long research papers reviewed by ARR"
     }
    ]
   },
@@ -1747,6 +1665,31 @@
      "deadline": "2027-01-22T11:59:59+00:00",
      "abstract": null,
      "comment": "Cycle 2 Submission deadline"
+    }
+   ]
+  },
+  {
+   "title": "ICML",
+   "year": 2027,
+   "description": "International Conference on Machine Learning",
+   "sub": "AI",
+   "rank": {
+    "ccf": "A",
+    "core": "A*"
+   },
+   "link": "https://icml.cc/Conferences/2027",
+   "date": "August 2-4, 2027",
+   "place": "Riocentro, Rio de Janeiro, Brazil",
+   "loc": [
+    -22.9777554,
+    -43.4116227
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-01-23T11:59:59+00:00",
+     "abstract": "2027-01-15T11:59:59+00:00",
+     "comment": null
     }
    ]
   },
@@ -2519,6 +2462,31 @@
      "deadline": "2027-03-02T11:59:59+00:00",
      "abstract": "2027-02-23T11:59:59+00:00",
      "comment": "Research Papers"
+    }
+   ]
+  },
+  {
+   "title": "ICDAR",
+   "year": 2027,
+   "description": "International Conference on Document Analysis and Recognition",
+   "sub": "AI",
+   "rank": {
+    "ccf": "C",
+    "core": "A"
+   },
+   "link": "https://icdar2027.org/",
+   "date": "August 18 - 22, 2027",
+   "place": "Kuala Lumpur, Malaysia",
+   "loc": [
+    3.1516964,
+    101.6942371
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-03-06T11:59:59+00:00",
+     "abstract": "2027-02-27T11:59:59+00:00",
+     "comment": "Conference track"
     }
    ]
   },
