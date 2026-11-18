@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T03:32:19.867987+00:00",
+ "updated": "2026-11-18T02:48:31.312028+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -14,157 +14,6 @@
   "MX": "Interdisciplinary"
  },
  "conferences": [
-  {
-   "title": "CVPR",
-   "year": 2027,
-   "description": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
-   "sub": "AI",
-   "rank": {
-    "ccf": "A",
-    "core": "A*"
-   },
-   "link": "https://cvpr.thecvf.com/Conferences/2027",
-   "date": "June 22-25, 2027",
-   "place": "Seattle, WA, United States",
-   "loc": [
-    47.6038321,
-    -122.330062
-   ],
-   "timezone": "UTC-12",
-   "deadlines": [
-    {
-     "deadline": "2026-11-17T11:59:59+00:00",
-     "abstract": null,
-     "comment": null
-    }
-   ]
-  },
-  {
-   "title": "EuroGP",
-   "year": 2027,
-   "description": "European Conference on Genetic Programming",
-   "sub": "AI",
-   "rank": {
-    "core": "B"
-   },
-   "link": "https://www.evostar.org/2027/eurogp/",
-   "date": "March 31-April 2, 2027",
-   "place": "Mainz, Germany (hybrid)",
-   "loc": [
-    49.9995205,
-    8.2736253
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-17T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Full papers"
-    }
-   ]
-  },
-  {
-   "title": "EvoApplications",
-   "year": 2027,
-   "description": "International Conference on the Applications of Evolutionary Computation",
-   "sub": "AI",
-   "rank": {
-    "core": "B"
-   },
-   "link": "https://www.evostar.org/2027/evoapps/",
-   "date": "March 31-April 2, 2027",
-   "place": "Mainz, Germany (hybrid)",
-   "loc": [
-    49.9995205,
-    8.2736253
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-17T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Full papers"
-    }
-   ]
-  },
-  {
-   "title": "EvoCOP",
-   "year": 2027,
-   "description": "European Conference on Evolutionary Computation in Combinatorial Optimisation",
-   "sub": "AI",
-   "rank": {
-    "core": "B"
-   },
-   "link": "https://www.evostar.org/2027/evocop/",
-   "date": "March 31-April 2, 2027",
-   "place": "Mainz, Germany (hybrid)",
-   "loc": [
-    49.9995205,
-    8.2736253
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-17T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Full papers"
-    }
-   ]
-  },
-  {
-   "title": "EvoMUSART",
-   "year": 2027,
-   "description": "International Conference on Artificial Intelligence in Music, Sound, Art and Design",
-   "sub": "AI",
-   "rank": {
-    "core": "B"
-   },
-   "link": "https://www.evostar.org/2027/evomusart/",
-   "date": "March 31-April 2, 2027",
-   "place": "Mainz, Germany (hybrid)",
-   "loc": [
-    49.9995205,
-    8.2736253
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-17T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Full papers"
-    }
-   ]
-  },
-  {
-   "title": "ISCA",
-   "year": 2027,
-   "description": "International Symposium on Computer Architecture",
-   "sub": "DS",
-   "rank": {
-    "ccf": "A",
-    "core": "A*"
-   },
-   "link": "https://iscaconf.org/isca2027/",
-   "date": "June 5-9, 2027",
-   "place": "Atlanta, Georgia, USA",
-   "loc": [
-    33.7544657,
-    -84.3898151
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-17T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Main Track; rebuttal/revision period: February 16-March 8, 2027"
-    },
-    {
-     "deadline": "2026-12-14T11:59:59+00:00",
-     "abstract": "2026-12-07T11:59:59+00:00",
-     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
-    }
-   ]
-  },
   {
    "title": "WSDM",
    "year": 2027,
@@ -368,7 +217,7 @@
    "deadlines": [
     {
      "deadline": "2026-11-24T11:59:59+00:00",
-     "abstract": "2026-11-17T11:59:59+00:00",
+     "abstract": null,
      "comment": null
     }
    ]
@@ -1067,6 +916,31 @@
      "deadline": "2026-12-12T11:59:59+00:00",
      "abstract": null,
      "comment": "2nd round Deadline"
+    }
+   ]
+  },
+  {
+   "title": "ISCA",
+   "year": 2027,
+   "description": "International Symposium on Computer Architecture",
+   "sub": "DS",
+   "rank": {
+    "ccf": "A",
+    "core": "A*"
+   },
+   "link": "https://iscaconf.org/isca2027/",
+   "date": "June 5-9, 2027",
+   "place": "Atlanta, Georgia, USA",
+   "loc": [
+    33.7544657,
+    -84.3898151
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-14T11:59:59+00:00",
+     "abstract": "2026-12-07T11:59:59+00:00",
+     "comment": "Industry Track; rebuttal period: February 15-26, 2027"
     }
    ]
   },
