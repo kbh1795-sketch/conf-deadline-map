@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T02:48:31.312028+00:00",
+ "updated": "2026-11-19T02:24:43.239236+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -14,111 +14,6 @@
   "MX": "Interdisciplinary"
  },
  "conferences": [
-  {
-   "title": "WSDM",
-   "year": 2027,
-   "description": "International Conference on Web Search and Data Mining",
-   "sub": "DB",
-   "rank": {
-    "ccf": "B",
-    "core": "A"
-   },
-   "link": "https://wsdm-conference.org/2027/",
-   "date": "February 15 - 19, 2027",
-   "place": "Cordis, Hong Kong SAR, China",
-   "loc": [
-    22.318083,
-    114.1681272
-   ],
-   "timezone": "UTC-12",
-   "deadlines": [
-    {
-     "deadline": "2026-11-18T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Short Paper"
-    }
-   ]
-  },
-  {
-   "title": "IMC",
-   "year": 2027,
-   "description": "ACM Internet Measurement Conference",
-   "sub": "NW",
-   "rank": {
-    "ccf": "B",
-    "core": "A"
-   },
-   "link": "https://conferences.sigcomm.org/imc/2027/",
-   "date": "Oct 25-29, 2027",
-   "place": "Atlanta, GA, USA",
-   "loc": [
-    33.7544657,
-    -84.3898151
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-18T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Cycle 1; rebuttal period January 26-February 2, 2027"
-    },
-    {
-     "deadline": "2027-04-08T11:59:59+00:00",
-     "abstract": "2027-04-01T11:59:59+00:00",
-     "comment": "Cycle 2"
-    }
-   ]
-  },
-  {
-   "title": "S&P",
-   "year": 2027,
-   "description": "IEEE Symposium on Security and Privacy",
-   "sub": "SC",
-   "rank": {
-    "ccf": "A",
-    "core": "A*"
-   },
-   "link": "https://sp2027.ieee-security.org/index.html",
-   "date": "May 17-19, 2027",
-   "place": "MONTREAL, CANADA",
-   "loc": [
-    45.5031824,
-    -73.5698065
-   ],
-   "timezone": "UTC-12",
-   "deadlines": [
-    {
-     "deadline": "2026-11-18T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Second Paper submission deadline"
-    }
-   ]
-  },
-  {
-   "title": "DAC",
-   "year": 2027,
-   "description": "Design Automation Conference",
-   "sub": "DS",
-   "rank": {
-    "ccf": "A",
-    "core": "A*"
-   },
-   "link": "https://dac.com/2027/authors/call-for-contributions",
-   "date": "July 11-14, 2027",
-   "place": "San Jose, CA",
-   "loc": [
-    37.3361663,
-    -121.890591
-   ],
-   "timezone": "UTC-8",
-   "deadlines": [
-    {
-     "deadline": "2026-11-19T01:00:00+00:00",
-     "abstract": null,
-     "comment": null
-    }
-   ]
-  },
   {
    "title": "MMSys",
    "year": 2027,
@@ -138,7 +33,7 @@
    "deadlines": [
     {
      "deadline": "2026-11-20T11:59:59+00:00",
-     "abstract": null,
+     "abstract": "2026-11-20T11:59:59+00:00",
      "comment": "Research Track - Second Round"
     }
    ]
@@ -170,55 +65,6 @@
      "deadline": "2027-02-12T11:59:59+00:00",
      "abstract": null,
      "comment": "Submission R2"
-    }
-   ]
-  },
-  {
-   "title": "PAKDD",
-   "year": 2027,
-   "description": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
-   "sub": "DB",
-   "rank": {
-    "ccf": "C",
-    "core": "B"
-   },
-   "link": "https://www.pakdd2027.org/",
-   "date": "June 29-July 2, 2027",
-   "place": "Wellington, New Zealand",
-   "loc": [
-    -41.2887953,
-    174.7772114
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-21T11:59:59+00:00",
-     "abstract": null,
-     "comment": null
-    }
-   ]
-  },
-  {
-   "title": "CODASPY",
-   "year": 2027,
-   "description": "ACM Conference on Data and Application Security and Privacy",
-   "sub": "SC",
-   "rank": {
-    "ccf": "C"
-   },
-   "link": "https://www.codaspy.org/2027/",
-   "date": "June 14-17, 2027",
-   "place": "Fort Collins, Colorado, USA",
-   "loc": [
-    40.5871782,
-    -105.0770113
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-24T11:59:59+00:00",
-     "abstract": null,
-     "comment": null
     }
    ]
   },
@@ -694,6 +540,36 @@
    ]
   },
   {
+   "title": "Middleware",
+   "year": 2027,
+   "description": "International Middleware Conference",
+   "sub": "SE",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://middleware-conf.github.io/2027/",
+   "date": "December 13-17, 2027",
+   "place": "Kyoto, Japan",
+   "loc": [
+    35.0115754,
+    135.7681441
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-04T12:00:00+00:00",
+     "abstract": "2026-11-27T12:00:00+00:00",
+     "comment": "Winter cycle"
+    },
+    {
+     "deadline": "2027-06-05T11:59:59+00:00",
+     "abstract": "2027-05-29T11:59:59+00:00",
+     "comment": "Summer cycle"
+    }
+   ]
+  },
+  {
    "title": "RSS",
    "year": 2027,
    "description": "Robotics Science and Systems",
@@ -714,6 +590,31 @@
      "deadline": "2026-12-05T11:59:59+00:00",
      "abstract": null,
      "comment": "Stage 1: initial 6-page extended abstract submission"
+    }
+   ]
+  },
+  {
+   "title": "PAKDD",
+   "year": 2027,
+   "description": "Pacific-Asia Conference on Knowledge Discovery and Data Mining",
+   "sub": "DB",
+   "rank": {
+    "ccf": "C",
+    "core": "B"
+   },
+   "link": "https://www.pakdd2027.org/",
+   "date": "June 29-July 2, 2027",
+   "place": "Wellington, New Zealand",
+   "loc": [
+    -41.2887953,
+    174.7772114
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-05T11:59:59+00:00",
+     "abstract": null,
+     "comment": null
     }
    ]
   },
@@ -815,6 +716,30 @@
     {
      "deadline": "2026-12-08T11:59:59+00:00",
      "abstract": "2026-12-02T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
+   "title": "CODASPY",
+   "year": 2027,
+   "description": "ACM Conference on Data and Application Security and Privacy",
+   "sub": "SC",
+   "rank": {
+    "ccf": "C"
+   },
+   "link": "https://www.codaspy.org/2027/",
+   "date": "June 14-17, 2027",
+   "place": "Fort Collins, Colorado, USA",
+   "loc": [
+    40.5871782,
+    -105.0770113
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-08T11:59:59+00:00",
+     "abstract": "2026-12-01T11:59:59+00:00",
      "comment": null
     }
    ]
@@ -1463,6 +1388,31 @@
     {
      "deadline": "2027-01-19T11:59:59+00:00",
      "abstract": "2027-01-12T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
+   "title": "SIGOPS ATC",
+   "year": 2027,
+   "description": "ACM SIGOPS Annual Technical Conference",
+   "sub": "DS",
+   "rank": {
+    "ccf": "A",
+    "core": "A"
+   },
+   "link": "https://atc.sigops.org/2027/",
+   "date": "June 28-July 1, 2027",
+   "place": "Rennes, France",
+   "loc": [
+    48.1113387,
+    -1.6800198
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-01-20T11:59:59+00:00",
+     "abstract": null,
      "comment": null
     }
    ]
@@ -2437,7 +2387,7 @@
     {
      "deadline": "2027-03-09T11:59:59+00:00",
      "abstract": "2027-03-02T11:59:59+00:00",
-     "comment": "All dates tentative; March 1 is paper registration; author rebuttal April 23 (provisional, cutoff unspecified)"
+     "comment": "All dates tentative; March 1 is paper registration; author rebuttal May 17 (provisional, cutoff unspecified)"
     }
    ]
   },
@@ -2511,6 +2461,31 @@
      "deadline": "2027-04-01T11:59:59+00:00",
      "abstract": null,
      "comment": null
+    }
+   ]
+  },
+  {
+   "title": "IMC",
+   "year": 2027,
+   "description": "ACM Internet Measurement Conference",
+   "sub": "NW",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://conferences.sigcomm.org/imc/2027/",
+   "date": "Oct 25-29, 2027",
+   "place": "Atlanta, GA, USA",
+   "loc": [
+    33.7544657,
+    -84.3898151
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-04-08T11:59:59+00:00",
+     "abstract": "2027-04-01T11:59:59+00:00",
+     "comment": "Cycle 2"
     }
    ]
   },
