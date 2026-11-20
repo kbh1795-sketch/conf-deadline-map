@@ -99,6 +99,10 @@
   39.7392364,
   -104.984862
  ],
+ "Dublin, Ireland": [
+  53.3493795,
+  -6.2605593
+ ],
  "Durham, England, United Kingdom": [
   54.666667,
   -1.75
@@ -231,6 +235,14 @@
   45.4641943,
   9.1896346
  ],
+ "Montréal, Canada": [
+  45.5031824,
+  -73.5698065
+ ],
+ "New York City, USA": [
+  40.7127281,
+  -74.0060152
+ ],
  "New York, USA": [
   40.7127281,
   -74.0060152
@@ -339,6 +351,10 @@
   43.6534817,
   -79.3839347
  ],
+ "Trento, Italy": [
+  46.1029536,
+  11.1297425
+ ],
  "Turin, Italy": [
   45.0677551,
   7.6824892
@@ -346,6 +362,10 @@
  "University of Miami, Coral Gables Campus, Miami, Florida, USA": [
   25.7741566,
   -80.1935973
+ ],
+ "Vilnius, Lithuania": [
+  54.6870458,
+  25.2829111
  ],
  "Wellington, New Zealand": [
   -41.2887953,

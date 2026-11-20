@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T02:24:43.239236+00:00",
+ "updated": "2026-11-20T02:08:42.845749+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -993,6 +993,31 @@
    ]
   },
   {
+   "title": "ISPASS",
+   "year": 2027,
+   "description": "International Symposium on Performance Analysis of Systems and Software",
+   "sub": "SE",
+   "rank": {
+    "ccf": "C",
+    "core": "B"
+   },
+   "link": "https://ispass.org/2027/",
+   "date": "May 9-11, 2027",
+   "place": "New York City, USA",
+   "loc": [
+    40.7127281,
+    -74.0060152
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-19T11:59:59+00:00",
+     "abstract": "2026-12-12T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
    "title": "GMP",
    "year": 2027,
    "description": "International Conference on Geometric Modeling and Processing",
@@ -1264,6 +1289,31 @@
    ]
   },
   {
+   "title": "ICDCS",
+   "year": 2027,
+   "description": "IEEE International Conference on Distributed Computing Systems",
+   "sub": "DS",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://icdcs2027.icdcs.org/",
+   "date": "July 5-8, 2027",
+   "place": "Melbourne, Australia",
+   "loc": [
+    -37.8142454,
+    144.9631732
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-01-14T11:59:59+00:00",
+     "abstract": "2027-01-07T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
    "title": "ISMB",
    "year": 2027,
    "description": "International Conference on Intelligent Systems for Molecular Biology",
@@ -1368,6 +1418,31 @@
    ]
   },
   {
+   "title": "HPDC",
+   "year": 2027,
+   "description": "ACM Symposium on High-Performance Parallel and Distributed Computing",
+   "sub": "DS",
+   "rank": {
+    "ccf": "A",
+    "core": "A"
+   },
+   "link": "https://hpdc.sci.utah.edu/2027/",
+   "date": "June 7-9, 2027",
+   "place": "Atlanta, GA, USA",
+   "loc": [
+    33.7544657,
+    -84.3898151
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-01-19T11:59:59+00:00",
+     "abstract": "2027-01-12T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
    "title": "DIS",
    "year": 2027,
    "description": "ACM Conference on Designing Interactive Systems",
@@ -1443,6 +1518,31 @@
    ]
   },
   {
+   "title": "LICS",
+   "year": 2027,
+   "description": "IEEE Symposium on Logic in Computer Science",
+   "sub": "CT",
+   "rank": {
+    "ccf": "A",
+    "core": "A*"
+   },
+   "link": "https://lics.siglog.org/lics27/",
+   "date": "June 21-24, 2027",
+   "place": "Montréal, Canada",
+   "loc": [
+    45.5031824,
+    -73.5698065
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-01-22T11:59:59+00:00",
+     "abstract": "2027-01-15T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
    "title": "SIGIR",
    "year": 2027,
    "description": "International Conference on Research on Development in Information Retrieval",
@@ -1452,7 +1552,7 @@
     "core": "A*"
    },
    "link": "https://sigir2027.org/",
-   "date": "July 18-24, 2027",
+   "date": "July 20-22, 2027",
    "place": "San Jose, California, USA",
    "loc": [
     37.3361663,
@@ -1513,6 +1613,31 @@
     {
      "deadline": "2027-01-23T11:59:59+00:00",
      "abstract": "2027-01-15T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
+   "title": "Networking",
+   "year": 2027,
+   "description": "IFIP International Conference on Networking",
+   "sub": "NW",
+   "rank": {
+    "ccf": "C",
+    "core": "B"
+   },
+   "link": "https://networking.ifip.org/2027/",
+   "date": "June 13-16, 2027",
+   "place": "Dublin, Ireland",
+   "loc": [
+    53.3493795,
+    -6.2605593
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-01-23T11:59:59+00:00",
+     "abstract": "2027-01-16T11:59:59+00:00",
      "comment": null
     }
    ]
@@ -1588,6 +1713,30 @@
     {
      "deadline": "2027-01-26T11:59:59+00:00",
      "abstract": null,
+     "comment": null
+    }
+   ]
+  },
+  {
+   "title": "CF",
+   "year": 2027,
+   "description": "ACM International Conference on Computing Frontiers",
+   "sub": "DS",
+   "rank": {
+    "ccf": "C"
+   },
+   "link": "https://www.computingfrontiers.org/2027/",
+   "date": "May 25-27, 2027",
+   "place": "Trento, Italy",
+   "loc": [
+    46.1029536,
+    11.1297425
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-01-26T11:59:59+00:00",
+     "abstract": "2027-01-19T11:59:59+00:00",
      "comment": null
     }
    ]
@@ -2186,6 +2335,31 @@
    ]
   },
   {
+   "title": "ICSME",
+   "year": 2027,
+   "description": "International Conference on Software Maintenance and Evolution",
+   "sub": "SE",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://conf.researchr.org/home/icsme-2027",
+   "date": "September 7-11, 2027",
+   "place": "Toronto, Canada",
+   "loc": [
+    43.6534817,
+    -79.3839347
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-02-27T11:59:59+00:00",
+     "abstract": "2027-02-20T11:59:59+00:00",
+     "comment": "Research Papers Track"
+    }
+   ]
+  },
+  {
    "title": "IEEE CEC",
    "year": 2027,
    "description": "IEEE Congress on Evolutionary Computation",
@@ -2315,31 +2489,6 @@
    ]
   },
   {
-   "title": "ICSME",
-   "year": 2027,
-   "description": "International Conference on Software Maintenance and Evolution",
-   "sub": "SE",
-   "rank": {
-    "ccf": "B",
-    "core": "A"
-   },
-   "link": "https://conf.researchr.org/home/icsme-2027",
-   "date": "September 7-11, 2027",
-   "place": "Toronto, Canada",
-   "loc": [
-    43.6534817,
-    -79.3839347
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2027-03-06T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Research Papers Track"
-    }
-   ]
-  },
-  {
    "title": "APWeb-WAIM",
    "year": 2027,
    "description": "APWeb-WAIM joint international conference on Web and Big Data",
@@ -2436,6 +2585,28 @@
      "deadline": "2027-03-16T11:59:59+00:00",
      "abstract": null,
      "comment": "Regular papers; rebuttal notification April 15, 2027"
+    }
+   ]
+  },
+  {
+   "title": "ECAF",
+   "year": 2027,
+   "description": "European Conference on Algorithmic Fairness",
+   "sub": "AI",
+   "rank": {},
+   "link": "https://2027.ecafconference.org/",
+   "date": "August 25-27, 2027",
+   "place": "Vilnius, Lithuania",
+   "loc": [
+    54.6870458,
+    25.2829111
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-03-26T11:59:59+00:00",
+     "abstract": null,
+     "comment": "Regular full research papers. The 5 May 2027 notification publishes a date only; its clock time 23:59:59 and timezone AoE are repository defaults."
     }
    ]
   },
