@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T02:08:42.845749+00:00",
+ "updated": "2026-11-21T02:02:15.028073+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -14,60 +14,6 @@
   "MX": "Interdisciplinary"
  },
  "conferences": [
-  {
-   "title": "MMSys",
-   "year": 2027,
-   "description": "ACM International Conference on Multimedia Systems",
-   "sub": "NW",
-   "rank": {
-    "core": "A"
-   },
-   "link": "https://2027.acmmmsys.org",
-   "date": "March 30 - April 2, 2027",
-   "place": "Ghent, Belgium",
-   "loc": [
-    51.0538286,
-    3.7250121
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-20T11:59:59+00:00",
-     "abstract": "2026-11-20T11:59:59+00:00",
-     "comment": "Research Track - Second Round"
-    }
-   ]
-  },
-  {
-   "title": "ECOOP",
-   "year": 2027,
-   "description": "European Conference on Object-Oriented Programming",
-   "sub": "SE",
-   "rank": {
-    "ccf": "B",
-    "core": "A"
-   },
-   "link": "https://2027.ecoop.org/",
-   "date": "June 28 - July 2, 2027",
-   "place": "Turin, Italy",
-   "loc": [
-    45.0677551,
-    7.6824892
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-20T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Submission R1"
-    },
-    {
-     "deadline": "2027-02-12T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Submission R2"
-    }
-   ]
-  },
   {
    "title": "ESANN",
    "year": 2027,
@@ -879,7 +825,7 @@
     "core": "A*"
    },
    "link": "https://icaps27.icaps-conference.org/",
-   "date": "June 27 - July 2, 2027",
+   "date": "June 30 - July 2, 2027",
    "place": "Columbia, SC, USA",
    "loc": [
     34.000754,
@@ -1223,7 +1169,7 @@
     "core": "A*"
    },
    "link": "https://www.sigmetrics.org/sigmetrics2027/",
-   "date": "June 7-11, 2027",
+   "date": "June 7-10, 2027",
    "place": "Atlanta, Georgia, USA",
    "loc": [
     33.7544657,
@@ -1891,30 +1837,6 @@
    ]
   },
   {
-   "title": "WHC",
-   "year": 2027,
-   "description": "IEEE World Haptics Conference",
-   "sub": "HI",
-   "rank": {
-    "ccf": "C"
-   },
-   "link": "https://2027.worldhaptics.org/",
-   "date": "July 12-15, 2027",
-   "place": "Boston, Massachusetts, USA",
-   "loc": [
-    42.3588336,
-    -71.0578303
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2027-01-30T11:59:59+00:00",
-     "abstract": null,
-     "comment": null
-    }
-   ]
-  },
-  {
    "title": "IJCNN",
    "year": 2027,
    "description": "International Joint Conference on Neural Networks",
@@ -2164,6 +2086,30 @@
    ]
   },
   {
+   "title": "WHC",
+   "year": 2027,
+   "description": "IEEE World Haptics Conference",
+   "sub": "HI",
+   "rank": {
+    "ccf": "C"
+   },
+   "link": "https://2027.worldhaptics.org/",
+   "date": "July 13-16, 2027",
+   "place": "Boston, Massachusetts, USA",
+   "loc": [
+    42.3588336,
+    -71.0578303
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-02-06T11:59:59+00:00",
+     "abstract": "2027-01-30T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
    "title": "EUSIPCO",
    "year": 2027,
    "description": "European Signal Processing Conference",
@@ -2207,6 +2153,31 @@
      "deadline": "2027-02-10T11:59:59+00:00",
      "abstract": null,
      "comment": "Regular papers; rebuttal April 13-20. Date-only milestones use AoE end-of-day convention, converted to UTC."
+    }
+   ]
+  },
+  {
+   "title": "ECOOP",
+   "year": 2027,
+   "description": "European Conference on Object-Oriented Programming",
+   "sub": "SE",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://2027.ecoop.org/",
+   "date": "June 28 - July 2, 2027",
+   "place": "Turin, Italy",
+   "loc": [
+    45.0677551,
+    7.6824892
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-02-12T11:59:59+00:00",
+     "abstract": null,
+     "comment": "Submission R2"
     }
    ]
   },
@@ -2589,6 +2560,31 @@
    ]
   },
   {
+   "title": "MoDELS",
+   "year": 2027,
+   "description": "International Conference on Model Driven Engineering Languages and Systems",
+   "sub": "SE",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://conf.researchr.org/home/models-2027",
+   "date": "TBD",
+   "place": "Budapest, Hungary",
+   "loc": [
+    47.4978789,
+    19.0402383
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-03-20T11:59:59+00:00",
+     "abstract": "2027-03-13T11:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
    "title": "ECAF",
    "year": 2027,
    "description": "European Conference on Algorithmic Fairness",
@@ -2631,6 +2627,31 @@
     {
      "deadline": "2027-04-01T11:59:59+00:00",
      "abstract": null,
+     "comment": null
+    }
+   ]
+  },
+  {
+   "title": "UIST",
+   "year": 2027,
+   "description": "ACM Symposium on User Interface Software and Technology",
+   "sub": "HI",
+   "rank": {
+    "ccf": "A",
+    "core": "A*"
+   },
+   "link": "https://uist.acm.org/2027/",
+   "date": "October 27-29, 2027",
+   "place": "VIECON - Vienna Congress & Convention Center, Vienna, Austria",
+   "loc": [
+    48.2083537,
+    16.3725042
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-04-08T11:59:59+00:00",
+     "abstract": "2027-04-01T11:59:59+00:00",
      "comment": null
     }
    ]
@@ -2720,7 +2741,7 @@
     "core": "A"
    },
    "link": "https://ecai2027.org/",
-   "date": "October 2-7, 2027",
+   "date": "October 4-7, 2027",
    "place": "Athens, Greece",
    "loc": [
     37.9755648,
