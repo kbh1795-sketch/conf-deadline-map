@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:02:15.028073+00:00",
+ "updated": "2026-11-22T01:03:45.515998+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -97,7 +97,7 @@
     "ccf": "C",
     "core": "C"
    },
-   "link": "http://2027.cscwd.org",
+   "link": "https://cscwd2027.dailyeliteevents.com.au/",
    "date": "May 26-28, 2027",
    "place": "Brisbane, Australia",
    "loc": [
@@ -480,8 +480,8 @@
    "deadlines": [
     {
      "deadline": "2026-12-04T11:59:59+00:00",
-     "abstract": "2026-12-02T11:59:59+00:00",
-     "comment": null
+     "abstract": null,
+     "comment": "Optional abstract registration: December 1, 2026 (AoE)"
     }
    ]
   },
