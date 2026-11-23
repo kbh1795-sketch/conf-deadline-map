@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T01:03:45.515998+00:00",
+ "updated": "2026-11-23T01:28:23.531090+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -84,7 +84,7 @@
     {
      "deadline": "2026-12-01T04:59:59+00:00",
      "abstract": null,
-     "comment": null
+     "comment": "Acceptance results: February 15 (date-only; AoE end-of-day default converted to UTC-5)."
     }
    ]
   },
@@ -516,6 +516,36 @@
    ]
   },
   {
+   "title": "CoNEXT",
+   "year": 2027,
+   "description": "International Conference on Emerging Networking Experiments and Technologies",
+   "sub": "NW",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://conferences.sigcomm.org/co-next/2027/#!/home",
+   "date": "December 6-9, 2027 (To be confirmed)",
+   "place": "Rio de Janeiro, Brazil",
+   "loc": [
+    -22.9110137,
+    -43.2093727
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-05T11:59:00+00:00",
+     "abstract": "2026-11-28T11:59:00+00:00",
+     "comment": "December Cycle"
+    },
+    {
+     "deadline": "2027-06-05T11:59:59+00:00",
+     "abstract": "2027-05-29T11:59:59+00:00",
+     "comment": "June Cycle"
+    }
+   ]
+  },
+  {
    "title": "RSS",
    "year": 2027,
    "description": "Robotics Science and Systems",
@@ -565,36 +595,6 @@
    ]
   },
   {
-   "title": "CoNEXT",
-   "year": 2027,
-   "description": "International Conference on Emerging Networking Experiments and Technologies",
-   "sub": "NW",
-   "rank": {
-    "ccf": "B",
-    "core": "A"
-   },
-   "link": "https://conferences.sigcomm.org/co-next/2027/#!/home",
-   "date": "December 6-9, 2027 (To be confirmed)",
-   "place": "Rio de Janeiro, Brazil",
-   "loc": [
-    -22.9110137,
-    -43.2093727
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-12-05T11:59:59+00:00",
-     "abstract": "2026-11-28T11:59:59+00:00",
-     "comment": "December Cycle"
-    },
-    {
-     "deadline": "2027-06-05T11:59:59+00:00",
-     "abstract": "2027-05-29T11:59:59+00:00",
-     "comment": "June Cycle"
-    }
-   ]
-  },
-  {
    "title": "MobiSys",
    "year": 2027,
    "description": "ACM International Conference on Mobile Systems, Applications, and Services",
@@ -615,7 +615,7 @@
     {
      "deadline": "2026-12-05T11:59:59+00:00",
      "abstract": "2026-11-28T11:59:59+00:00",
-     "comment": null
+     "comment": "Acceptance is conditional on shepherding. March 6 is date-only; clock and time zone are repository defaults."
     }
    ]
   },
@@ -651,7 +651,7 @@
     "core": "A"
    },
    "link": "https://klab-ai3.github.io/ics2027/",
-   "date": "June 5-11, 2027",
+   "date": "June 5-8, 2027",
    "place": "Atlanta, Georgia, USA",
    "loc": [
     33.7544657,
