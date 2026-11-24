@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T01:28:23.531090+00:00",
+ "updated": "2026-11-24T05:12:02.811720+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -238,6 +238,28 @@
      "deadline": "2027-03-02T01:00:00+00:00",
      "abstract": "2027-02-26T01:00:00+00:00",
      "comment": null
+    }
+   ]
+  },
+  {
+   "title": "CVC",
+   "year": 2027,
+   "description": "Computer Vision Conference",
+   "sub": "AI",
+   "rank": {},
+   "link": "https://saiconference.com/CVC",
+   "date": "April 15-16, 2027",
+   "place": "Amsterdam, Netherlands",
+   "loc": [
+    52.3730796,
+    4.8924534
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-02T11:59:59+00:00",
+     "abstract": null,
+     "comment": "Round 2"
     }
    ]
   },
