@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T05:12:02.811720+00:00",
+ "updated": "2026-11-25T04:00:29.124351+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -286,31 +286,6 @@
    ]
   },
   {
-   "title": "CCGRID",
-   "year": 2027,
-   "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
-   "sub": "DS",
-   "rank": {
-    "ccf": "C",
-    "core": "B"
-   },
-   "link": "https://hpcclab.org/ccgrid27/",
-   "date": "May 24-27, 2027",
-   "place": "Dallas-Fort Worth, Texas, USA",
-   "loc": [
-    32.8350573,
-    -97.2983175
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-12-02T11:59:59+00:00",
-     "abstract": "2026-11-25T11:59:59+00:00",
-     "comment": null
-    }
-   ]
-  },
-  {
    "title": "SAI",
    "year": 2027,
    "description": "Computing Conference (SAI)",
@@ -402,7 +377,7 @@
    "deadlines": [
     {
      "deadline": "2026-12-03T11:59:59+00:00",
-     "abstract": "2026-11-24T11:59:59+00:00",
+     "abstract": null,
      "comment": "Full papers"
     }
    ]
@@ -733,6 +708,31 @@
     {
      "deadline": "2026-12-08T22:59:59+00:00",
      "abstract": "2026-12-01T22:59:59+00:00",
+     "comment": null
+    }
+   ]
+  },
+  {
+   "title": "CCGRID",
+   "year": 2027,
+   "description": "IEEE International Symposium on Cluster, Cloud and Internet Computing",
+   "sub": "DS",
+   "rank": {
+    "ccf": "C",
+    "core": "B"
+   },
+   "link": "https://hpcclab.org/ccgrid27/",
+   "date": "May 24-27, 2027",
+   "place": "Dallas-Fort Worth, Texas, USA",
+   "loc": [
+    32.8350573,
+    -97.2983175
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-09T11:59:59+00:00",
+     "abstract": "2026-12-02T11:59:59+00:00",
      "comment": null
     }
    ]
