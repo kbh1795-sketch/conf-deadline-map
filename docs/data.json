@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T04:00:29.124351+00:00",
+ "updated": "2026-11-26T03:25:53.380515+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -221,7 +221,7 @@
    "deadlines": [
     {
      "deadline": "2026-12-02T01:00:00+00:00",
-     "abstract": "2026-11-26T01:00:00+00:00",
+     "abstract": null,
      "comment": null
     },
     {
@@ -483,36 +483,6 @@
    ]
   },
   {
-   "title": "Middleware",
-   "year": 2027,
-   "description": "International Middleware Conference",
-   "sub": "SE",
-   "rank": {
-    "ccf": "B",
-    "core": "A"
-   },
-   "link": "https://middleware-conf.github.io/2027/",
-   "date": "December 13-17, 2027",
-   "place": "Kyoto, Japan",
-   "loc": [
-    35.0115754,
-    135.7681441
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-12-04T12:00:00+00:00",
-     "abstract": "2026-11-27T12:00:00+00:00",
-     "comment": "Winter cycle"
-    },
-    {
-     "deadline": "2027-06-05T11:59:59+00:00",
-     "abstract": "2027-05-29T11:59:59+00:00",
-     "comment": "Summer cycle"
-    }
-   ]
-  },
-  {
    "title": "CoNEXT",
    "year": 2027,
    "description": "International Conference on Emerging Networking Experiments and Technologies",
@@ -539,6 +509,36 @@
      "deadline": "2027-06-05T11:59:59+00:00",
      "abstract": "2027-05-29T11:59:59+00:00",
      "comment": "June Cycle"
+    }
+   ]
+  },
+  {
+   "title": "Middleware",
+   "year": 2027,
+   "description": "International Middleware Conference",
+   "sub": "SE",
+   "rank": {
+    "ccf": "B",
+    "core": "A"
+   },
+   "link": "https://middleware-conf.github.io/2027/",
+   "date": "December 13-17, 2027",
+   "place": "Kyoto, Japan",
+   "loc": [
+    35.0115754,
+    135.7681441
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2026-12-05T11:59:00+00:00",
+     "abstract": "2026-11-28T11:59:00+00:00",
+     "comment": "Winter cycle"
+    },
+    {
+     "deadline": "2027-06-05T11:59:59+00:00",
+     "abstract": "2027-05-29T11:59:59+00:00",
+     "comment": "Summer cycle"
     }
    ]
   },
@@ -2154,6 +2154,31 @@
    ]
   },
   {
+   "title": "SPM",
+   "year": 2027,
+   "description": "Symposium on Solid and Physical Modeling",
+   "sub": "CG",
+   "rank": {
+    "ccf": "B",
+    "core": "C"
+   },
+   "link": "https://spmconf2027.github.io/",
+   "date": "June 21-25, 2027",
+   "place": "Singapore",
+   "loc": [
+    1.357107,
+    103.8194992
+   ],
+   "timezone": "AoE",
+   "deadlines": [
+    {
+     "deadline": "2027-02-08T11:59:59+00:00",
+     "abstract": "2027-02-01T11:59:59+00:00",
+     "comment": "First review notification: Mar 26, 2027; revised paper due: Apr 23, 2027"
+    }
+   ]
+  },
+  {
    "title": "InterSpeech",
    "year": 2027,
    "description": "Conference of the International Speech Communication Association",
@@ -2713,7 +2738,7 @@
     "core": "A"
    },
    "link": "https://2027.splashcon.org/track/splashoopsla2027",
-   "date": "October 10-15, 2027",
+   "date": "October 13-15, 2027",
    "place": "Prague, Czechia",
    "loc": [
     50.0874654,
