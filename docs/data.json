@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:25:53.380515+00:00",
+ "updated": "2026-11-27T03:33:18.368064+00:00",
  "categories": {
   "AI": "AI / ML / Vision / NLP",
   "RO": "Robotics",
@@ -14,55 +14,6 @@
   "MX": "Interdisciplinary"
  },
  "conferences": [
-  {
-   "title": "ESANN",
-   "year": 2027,
-   "description": "European Symposium on Artificial Neural Networks, Computational Intelligence and Machine Learning",
-   "sub": "AI",
-   "rank": {
-    "core": "B"
-   },
-   "link": "https://www.esann.org/",
-   "date": "April 21 - 23, 2027",
-   "place": "Bruges, Belgium and Online",
-   "loc": [
-    51.2085526,
-    3.226772
-   ],
-   "timezone": "UTC-8",
-   "deadlines": [
-    {
-     "deadline": "2026-11-26T11:59:59+00:00",
-     "abstract": null,
-     "comment": null
-    }
-   ]
-  },
-  {
-   "title": "DASFAA",
-   "year": 2027,
-   "description": "Database Systems for Advanced Applications",
-   "sub": "DB",
-   "rank": {
-    "ccf": "B",
-    "core": "B"
-   },
-   "link": "https://dasfaa2027.github.io/",
-   "date": "May 27-30, 2027",
-   "place": "Shenyang, China",
-   "loc": [
-    41.8026095,
-    123.4279105
-   ],
-   "timezone": "AoE",
-   "deadlines": [
-    {
-     "deadline": "2026-11-26T11:59:59+00:00",
-     "abstract": null,
-     "comment": "Research papers"
-    }
-   ]
-  },
   {
    "title": "SECON",
    "year": 2027,
@@ -427,7 +378,7 @@
    "deadlines": [
     {
      "deadline": "2026-12-03T11:59:59+00:00",
-     "abstract": "2026-11-26T11:59:59+00:00",
+     "abstract": null,
      "comment": null
     }
    ]
@@ -452,7 +403,7 @@
    "deadlines": [
     {
      "deadline": "2026-12-03T11:59:59+00:00",
-     "abstract": "2026-11-26T11:59:59+00:00",
+     "abstract": null,
      "comment": null
     }
    ]
